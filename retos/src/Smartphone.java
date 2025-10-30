@@ -86,7 +86,7 @@ public class Smartphone {
        this.nivelBateria -= porcentaje;
        return this.nivelBateria+"%";
     }
-    public String getcagar(int minutos){
+    public String getcargar(int minutos){
         int porcentaje = minutos/2;
         this.nivelBateria += porcentaje;
         return this.nivelBateria+"%";
