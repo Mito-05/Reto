@@ -76,10 +76,10 @@ public class Smartphone {
         this.sistemaOperativo = sistemaOperativo;
     }
     public boolean getencender() {
-        return this.encendido==true;
+        return this.encendido=true;
     }
     public boolean getapagado() {
-        return this.encendido==false;
+        return this.encendido=false;
     }
     public String getusar(int minutos){
        int porcentaje = minutos/5;
